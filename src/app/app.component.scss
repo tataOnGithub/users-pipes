@@ -1,0 +1,30 @@
+#container {
+    margin: 100px;
+    padding: auto;
+
+    button {
+        background-color: rgb(80, 80, 138);
+        color: #fff;
+        border: none;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .cards-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        gap: 50px;
+        margin: auto;
+    
+        .card {
+            border: 1px solid red;
+            width: 250px;
+            height: 100%;
+            padding: 0 10px;
+        }
+    }
+}
+
+

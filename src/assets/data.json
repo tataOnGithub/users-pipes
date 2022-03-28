@@ -1,0 +1,23 @@
+[
+    {
+        "firstName": "John",
+        "lastName": "Smith",
+        "about": "John",
+        "birthDate": "1954-02-23",
+        "status": "Deleted"
+    },
+    {
+        "firstName": "George",
+        "lastName": "Smith",
+        "about": "George",
+        "birthDate": "1970-04-16",
+        "status": "Active"
+    },
+    {
+        "firstName": "Anna",
+        "lastName": "Smith",
+        "about": "Anna",
+        "birthDate": "1985-07-30",
+        "status": "Inactive"
+    }
+]

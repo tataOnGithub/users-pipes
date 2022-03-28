@@ -1,0 +1,6 @@
+<div appHighlight [color]="color(user)" class="card" *ngFor="let user of objects">
+  <h2>{{ user.firstName }} {{ user.lastName }}</h2>
+  <p>about {{ user.firstName }}</p>
+  <p>{{ user.birthDate |date }}</p>
+  <p class="status" [ngStyle]="{'background-color': color(user)}">{{ user.status }}</p>
+</div>
