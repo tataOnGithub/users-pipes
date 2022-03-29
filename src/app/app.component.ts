@@ -9,7 +9,6 @@ import { ObjectsService } from './objects.service';
 })
 export class AppComponent {
   title = 'task-1';
-  // objects: any = {};
   usersActive: boolean = false;
 
   constructor(private objectsService: ObjectsService) { }

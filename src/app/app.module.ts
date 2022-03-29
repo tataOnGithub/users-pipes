@@ -5,13 +5,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
 import { HighlightDirective } from './highlight.directive';
+import { YearsAgoPipe } from './pipes/years-ago.pipe';
+import { BoxComponent } from './box/box.component';
+import { ColorChangeDirective } from './color-change.directive';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     CardComponent,
-    HighlightDirective
-  ],
+    HighlightDirective,
+    YearsAgoPipe,
+      BoxComponent,
+      ColorChangeDirective
+   ],
   imports: [
     BrowserModule,
     FormsModule

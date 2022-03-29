@@ -9,7 +9,7 @@ import { ObjectsService } from '../objects.service';
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent implements OnInit {
-  objects: any = {};
+  objects: Array<User> = [];
 
   constructor(private objectsService: ObjectsService) { }
 

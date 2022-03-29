@@ -1,6 +1,11 @@
-<section id="container">
+<section class="container">
+  <h2>Taks 1</h2>
   <button (click)="activeUsers()">Load Users</button>
   <ng-container *ngIf="usersActive">
     <app-card class="cards-wrapper"></app-card>
   </ng-container>
+</section>
+<section class="container">
+  <h2>Taks 2</h2>
+  <app-box></app-box>
 </section>
